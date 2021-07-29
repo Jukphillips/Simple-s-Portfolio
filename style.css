@@ -7,7 +7,6 @@
 .Top-header {
   /* position: fixed; */
   height: 68px;
-  width: 1368px;
   background-color: lightskyblue;
 }
 
@@ -19,7 +18,7 @@
   align-items: center;
   display: inline-block;
   background-color: lightskyblue;
-  width: 1368;
+  width: auto;
   height: 50px;
 }
 #simpleHeader::before {
@@ -46,8 +45,8 @@ nav a {
 }
 
 figure img {
-  width: 1360px;
   height: 600px;
+  width: 100%;
 }
 #backgroundh2 {
   background-color: rgb(0, 0, 0);
@@ -66,7 +65,7 @@ figure img {
 article {
   display: flex;
   margin: 7.5px;
-  width: 1350px;
+  width: 100%;
 }
 
 .About-me-main h2 {
@@ -87,7 +86,7 @@ Main {
 }
 
 Main h2 {
-  padding: 42px;
+  padding: 40px;
   font-size: 190%;
   color: lightskyblue;
   border-right: 6px solid lightskyblue;
