@@ -46,7 +46,7 @@ nav a {
 }
 
 figure img {
-  width: 1368px;
+  width: 1360px;
   height: 600px;
 }
 #backgroundh2 {
@@ -82,7 +82,6 @@ article {
 
 Main {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -94,28 +93,46 @@ Main h2 {
 section {
   display: inline-block;
   font-size: 190%;
-  float: right;
 }
 section img {
   display: inline-block;
+  justify-content: space-evenly;
   margin: 10px;
   background-color: black;
-  background-size: contain;
+  /* background-size: contain; */
   border: 3px solid rgb(111, 144, 165);
-  opacity: 50%;
+  opacity: 75%;
+}
+section h3 {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section img:hover {
+  opacity: 100%;
 }
 
 footer {
+  display: flex;
+  height: 50px;
   background-color: lightskyblue;
+  justify-content: space-around;
 }
 
 footer h2 {
   color: white;
   display: inline-block;
+  align-items: center;
+  margin: 10px;
 }
 
-footer ul li {
-  display: inline-block;
-  float: right;
+footer h4 {
   color: white;
+  display: inline-block;
+  align-items: center;
+  margin: 18px;
 }
