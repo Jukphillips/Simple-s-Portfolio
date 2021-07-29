@@ -1,3 +1,63 @@
-h1 {
-  color: red;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  
 }
+
+
+.Top-header {
+  position: fixed;
+  height: 68px;
+  width: 1368px;
+  background-color: lightskyblue;
+  
+}
+
+#simpleHeader {
+    margin-top: 10px;
+margin-bottom: 1px;
+  color: white;
+  font-family: 
+  letter-spacing: 3px;
+
+  align-items: center;
+  display: inline-block;
+  background-color: lightskyblue;
+  width: 1368;
+  height: 50px:
+  
+  
+}
+#simpleHeader::before {
+  width: 20px;
+  height: 20px;
+  content: "\1F9E0";
+}
+nav {
+  color: white;
+  display: inline-block;
+  float: right;
+  
+}
+nav ul li {
+  margin: 20px;
+  display: inline-block;
+  font-size: 20px;
+  align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+figure img {
+    margin-top:68px;
+  width: 1368px;
+  height: 600px;
+  filter: blur(4px);
+  
+} 
