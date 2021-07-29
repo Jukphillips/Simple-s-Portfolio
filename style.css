@@ -82,16 +82,40 @@ article {
 
 Main {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 Main h2 {
-  padding: 40px;
+  padding: 31px;
   border-right: 6px solid lightskyblue;
 }
 
 section {
   display: inline-block;
+  font-size: 190%;
+  float: right;
 }
-#My-best-Html-Work {
+section img {
+  display: inline-block;
+  margin: 10px;
+  background-color: black;
   background-size: contain;
+  border: 3px solid rgb(111, 144, 165);
+  opacity: 50%;
+}
+
+footer {
+  background-color: lightskyblue;
+}
+
+footer h2 {
+  color: white;
+  display: inline-block;
+}
+
+footer ul li {
+  display: inline-block;
+  float: right;
+  color: white;
 }
