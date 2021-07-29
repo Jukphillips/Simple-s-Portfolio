@@ -66,35 +66,39 @@ figure img {
 article {
   display: flex;
   margin: 7.5px;
+  width: 1350px;
 }
 
 .About-me-main h2 {
   padding: 40px;
   font-size: 190%;
+  color: lightskyblue;
   border-right: 6px solid lightskyblue;
 }
 
 .About-me-main p {
   padding: 40px;
   display: inline-block;
-  float: right;
 }
 
 Main {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 Main h2 {
-  padding: 31px;
+  padding: 42px;
+  font-size: 190%;
+  color: lightskyblue;
   border-right: 6px solid lightskyblue;
 }
 
 section {
   display: inline-block;
-  font-size: 190%;
+  margin: 10px;
 }
 section img {
+  padding: 5px;
   display: inline-block;
   justify-content: space-evenly;
   margin: 10px;
@@ -103,20 +107,21 @@ section img {
   border: 3px solid rgb(111, 144, 165);
   opacity: 75%;
 }
-section h3 {
+/* #sectionh3 {
+  font-size: 50px;
   color: white;
   text-decoration: none;
-  position: absolute;
-  top: 300%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  position: relative;
+  top: 20%;
+  left: 48%;
+} */
 
 section img:hover {
   opacity: 100%;
 }
 
 footer {
+  margin-top: 10px;
   display: flex;
   height: 50px;
   background-color: lightskyblue;
@@ -135,4 +140,7 @@ footer h4 {
   display: inline-block;
   align-items: center;
   margin: 18px;
+}
+
+@media screen and (max-width: 768px) {
 }
