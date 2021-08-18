@@ -55,21 +55,23 @@ figure img {
   color: white;
   border: 1.75px solid white;
   font-weight: bold;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -500%);
   text-align: center;
 }
 
 article {
   display: flex;
-  margin: 7.5px;
+  margin: 0px;
   width: 100%;
 }
 
 .About-me-main h2 {
   padding: 40px;
+  width: 166px;
+
   font-size: 190%;
   color: lightskyblue;
   border-right: 6px solid lightskyblue;
@@ -77,6 +79,7 @@ article {
 
 .About-me-main p {
   padding: 40px;
+  margin: 10px;
   display: inline-block;
 }
 
@@ -88,6 +91,7 @@ Main {
 Main h2 {
   padding: 40px;
   font-size: 190%;
+  width: 166px;
   color: lightskyblue;
   border-right: 6px solid lightskyblue;
 }
@@ -95,28 +99,37 @@ Main h2 {
 section {
   display: inline-block;
   margin: 10px;
+  padding: 40px;
 }
 section img {
-  padding: 5px;
-  display: inline-block;
-  justify-content: space-evenly;
-  margin: 10px;
-  background-color: black;
-  /* background-size: contain; */
   border: 3px solid rgb(111, 144, 165);
   opacity: 75%;
 }
-/* #sectionh3 {
-  font-size: 50px;
-  color: white;
-  text-decoration: none;
-  position: relative;
-  top: 20%;
-  left: 48%;
-} */
 
 section img:hover {
   opacity: 100%;
+  border: 3px solid red;
+}
+
+#project1 {
+  position: relative;
+}
+
+#project1Text {
+  position: absolute;
+  bottom: 50%;
+  left: 34%;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border: 1.5px solid rgb(111, 144, 165);
+}
+
+.githubPositioning {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  border: 0px;
 }
 
 footer {
