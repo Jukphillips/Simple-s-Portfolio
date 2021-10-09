@@ -195,10 +195,12 @@ article {
 
 #viewbrand {
   background-color: transparent;
-  width: 19%;
+  width: 21%;
   height: 44px;
   color: white;
   border: 2px solid white;
+  padding: 5px;
+  text-decoration: none;
 }
 
 #viewbrand:hover {
@@ -328,12 +330,24 @@ Main {
   background-color: rgb(238, 153, 153);
 }
 
+#githubfooter {
+  width: 93%;
+  height: 75%;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  opacity: 50%;
+}
+
+#githubfooter:hover {
+  opacity: 100%;
+}
+
 footer {
   margin-top: 10px;
   display: flex;
   height: 50px;
   background-color: lightskyblue;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 footer h2 {
